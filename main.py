@@ -15,6 +15,6 @@ def main():
 
         email_send(keyword,from_email,password,f,to_email,host=host)
     else:
-        exit()
+        exit(0)
 if __name__ == '__main__':
     main()
